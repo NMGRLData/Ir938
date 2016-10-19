@@ -1,0 +1,94 @@
+{
+    "aliquot": 21, 
+    "analysis_type": "unknown", 
+    "collection_version": "0.1:0.1", 
+    "comment": "", 
+    "commit": "30c72925146d9d54f85353426bae6c5f1e1d33bc", 
+    "conditionals": [
+        {
+            "analysis_types": null, 
+            "frequency": 5, 
+            "hash_id": -880383680365642060, 
+            "level": null, 
+            "location": "scripts/conditionals/C_Henry.yaml", 
+            "ntrips": 1, 
+            "start_count": 5, 
+            "teststr": "Ar40>5000.0"
+        }, 
+        {
+            "analysis_types": null, 
+            "frequency": 1, 
+            "hash_id": -7129120877116560227, 
+            "level": null, 
+            "location": "scripts/conditionals/C_Henry.yaml", 
+            "ntrips": 1, 
+            "start_count": 10, 
+            "teststr": "Ar40>5000.0"
+        }
+    ], 
+    "detectors": {
+        "AX": {
+            "deflection": 190.0, 
+            "gain": 0
+        }, 
+        "CDD": {
+            "deflection": 0.0, 
+            "gain": 0
+        }, 
+        "H1": {
+            "deflection": 0.0, 
+            "gain": 0
+        }, 
+        "H2": {
+            "deflection": 0.0, 
+            "gain": 0
+        }, 
+        "L1": {
+            "deflection": 400.0, 
+            "gain": 0
+        }, 
+        "L2": {
+            "deflection": 825.0, 
+            "gain": 0
+        }
+    }, 
+    "extraction": "jan_co2.py", 
+    "identifier": "65254", 
+    "increment": null, 
+    "intensity_scalar": 0.0, 
+    "irradiation": "NM-285", 
+    "irradiation_level": "E", 
+    "irradiation_position": 20, 
+    "isotopes": {
+        "Ar36": {
+            "detector": "CDD"
+        }, 
+        "Ar37": {
+            "detector": "L2"
+        }, 
+        "Ar38": {
+            "detector": "L1"
+        }, 
+        "Ar39": {
+            "detector": "AX"
+        }, 
+        "Ar40": {
+            "detector": "H1"
+        }, 
+        "Ar41": {
+            "detector": "H2"
+        }
+    }, 
+    "mass_spectrometer": "Jan", 
+    "material": "TraceSanidine", 
+    "measurement": "jan_unknown400_120.py", 
+    "project": "IR938", 
+    "queue_conditionals_name": "", 
+    "repository_identifier": "Ir938", 
+    "sample": "RT82015", 
+    "spec_sha": "c0f93fb87f27cb706136aea3cb095b39a8b910f6", 
+    "timestamp": "2016-10-19T01:29:32.241748", 
+    "tripped_conditional": null, 
+    "username": "root", 
+    "uuid": "fb8118cd-7a1d-49a7-ac46-4d4e4d65b146"
+}
